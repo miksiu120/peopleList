@@ -1,0 +1,108 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  background-color: #ececec;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: #3792cd;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+  -webkit-box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.2);
+          box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.2);
+  padding: 0.5em 1em;
+}
+
+.box {
+  background-color: #fff;
+  padding: 2em 1em;
+  -webkit-box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.3333333333);
+          box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.3333333333);
+}
+.box__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+  margin-inline: 0.5em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid black;
+}
+.box__form__input {
+  font-size: 2rem;
+  padding: 0.2em 0.4em;
+}
+.box__form__button {
+  font-size: 1.8rem;
+  padding: 0.3em 0.6em;
+  color: #fff;
+  background-color: #3792cd;
+  border: none;
+  -webkit-box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.1333333333);
+          box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.1333333333);
+  cursor: pointer;
+}
+.box__people {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+  padding-bottom: 1em;
+}
+.box__refreshButton {
+  font-size: 1.6rem;
+  padding: 0.4em 0.8em;
+  color: #fff;
+  background-color: #3792cd;
+  border: none;
+  -webkit-box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.1333333333);
+          box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.1333333333);
+  cursor: pointer;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
