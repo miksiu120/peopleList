@@ -1,13 +1,10 @@
 const mongoose = require('mongoose')
 const User = require('./router-user')
-const url = 'mongodb://127.0.0.1:27017/userData'
-
+//const url = 'mongodb://127.0.0.1:27017/userData'
+const url = 'mongodb:https://leafy-kleicha-7108f2.netlify.app//userData'
 mongoose.connect(url)
 
-
-
 const createUser = async data => {
-	
 	data = {
 		name: data,
 	}
